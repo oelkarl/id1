@@ -1,40 +1,57 @@
 body {
     margin: 0;
     width: 100%;
+    padding: 70px 2%;
+    margin: 0;
     font-size: 1em;
+    background-color: yellow;
 }
 
 img {
     width:95%;
+    padding: 20px;
 }
 
 p {
     width:90%;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     margin: 3%;
-    padding: 30px 1.5%;
-    border: 5px solid grey;
+    padding: 30px 1.5%
+    font-family: 'Lato', sans-serif;
+}
+
+blockquote {
+    font-size: 2em;
+    padding: 50px 10%;
+    border: 10px double orange;
+    text-align: center;
 }
 
 h2 {
-    color: orangered;
+    color: orange;
     text-align: center;
-    padding: 10px 0;
+    padding: 1px 0;
+    font-size: 4em;
+    font-family: 'Sansita', sans-serif;
+}
+
+h5, h4 {
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+h3 {
+    text-align: center;
     font-size: 3em;
-}
-
-h5 {
-    text-align: center;
-}
-
-body {
-    width:100%;
-    padding: 70px 2%;
-    margin: 0;
+        font-family: 'Sansita', sans-serif;
 }
 
 img#albums {
     width: 90%;
-    padding: 2%;
+    padding: 20px 5%;
+}
+
+img#pin1, img#pin2, img#pin3{
+    width: 30%;
 }
