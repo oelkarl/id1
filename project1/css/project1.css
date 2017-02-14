@@ -15,10 +15,10 @@ img {
 p {
     width:90%;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 3%;
     padding: 30px 1.5%
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 blockquote {
@@ -33,18 +33,21 @@ h2 {
     text-align: center;
     padding: 1px 0;
     font-size: 4em;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 h5, h4 {
     text-align: center;
     font-family: 'Sansita', sans-serif;
 }
+h4 {
+    font-family: 'Ropa Sans', sans-serif;
+}
 
 h3 {
     text-align: center;
     font-size: 3em;
-        font-family: 'Sansita', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 img#albums {
