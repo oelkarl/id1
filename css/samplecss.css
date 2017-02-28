@@ -1,0 +1,45 @@
+/* DESKTOP LAYOUT */
+
+body {
+    margin: 0;
+    background-color:bisque;
+}
+
+img {
+    width: 100%;
+
+}
+
+img#self {
+    width: 35%;
+    position: relative;
+    padding: 10px 1.5%;
+}
+
+section {
+    width: 35%;
+    position: relative;
+    left: 2%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+section#abtme {
+    clear: both;
+    float: none;
+}
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width:500px) {
+    
+    body {
+        width: 80%;
+        padding: 2% 2%;
+    }
+    
+    img {
+        width: 80%;
+    }
+    
+}
