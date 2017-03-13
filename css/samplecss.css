@@ -1,33 +1,69 @@
 /* DESKTOP LAYOUT */
 
 body {
-    margin: 0;
+    margin: 1;
     background-color:bisque;
+}
+
+h2, h3 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+h4 {
+    font-family: 'Basic', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+h2#aboutborder {
+    background-color: black;
+    border-radius: none;
+    color: white;
+    
+}
+
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+li {
+    font-family: 'Basic', sans-serif;
 }
 
 img {
     width: 100%;
-
 }
 
 img#self {
-    width: 35%;
-    position: relative;
-    padding: 10px 1.5%;
+    width: 45%;
+    float: left;
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    background-color: darkslategrey;
+    margin: 20px;
 }
 
 section {
-    width: 35%;
-    position: relative;
-    left: 2%;
+    width: 50%;
     float: left;
-    margin-bottom: 10%;
+    display: block;
 }
 
-section#abtme {
-    clear: both;
-    float: none;
+section#project {
+    padding-bottom: 60px ;
 }
+
+section#aboutme {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    display: block;
+}
+
 
 /* MOBILE LAYOUT */
 
