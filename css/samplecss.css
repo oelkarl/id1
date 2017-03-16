@@ -5,6 +5,16 @@ body {
     background-color:bisque;
 }
 
+img#logo {
+    width: 10%;
+    float: left;
+}
+
+h3#name2{
+    margin-top: -50px;
+}
+
+
 h2, h3 {
     font-family: 'Francois One', sans-serif;
     font-size: 40px;
@@ -23,8 +33,14 @@ h2#aboutborder {
     
 }
 
+p#footer {
+    font-size: .9em;
+}
+
 p {
     font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2em;
+    margin-top: -20px;
 }
 
 li {
