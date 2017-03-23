@@ -10,15 +10,28 @@ img#logo {
     float: left;
 }
 
+h2#name {
+    color:crimson;
+
+}
+
 h3#name2{
     margin-top: -50px;
+    color: dimgrey;
+    width: 100%;
+}
+
+p#list {
+    margin-top: 5%;
+    font-size: 2em;
+    color: black;
 }
 
 h4#exercise, h4#project2 {
-    padding: 2px 2px;
+    padding: 2px 1px;
     background-color: black;
-    color: white;
-    margin-right: 10px;
+    color: bisque;
+    margin-right: 50px;
 }
 
 h2, h3 {
@@ -29,13 +42,13 @@ h4 {
     font-family: 'Basic', sans-serif;
     font-size: 25px;
     border-radius: 10px;
-    border-color: white;
+    border-color: bisque;
 }
 
 h2#aboutborder {
     background-color: black;
     border-radius: none;
-    color: white;
+    color: bisque;
     
 }
 
@@ -51,6 +64,12 @@ p {
 
 li {
     font-family: 'Basic', sans-serif;
+    color: crimson;
+}
+
+a{
+    text-decoration: none;
+    color: dimgrey;
 }
 
 img {
@@ -75,6 +94,7 @@ section {
 
 section#exercise2 {
     padding-right: 50%;
+    margin-top: -5%;
 }
 
 section#project {
@@ -87,8 +107,10 @@ section#aboutme {
 }
 
 footer {
-    width: 100%;
+    width: 20%;
     float: left;
+    margin-top: -3.5%;
+    margin-left: 1.667%
 }
 
 
@@ -103,6 +125,11 @@ footer {
     
     img {
         width: 80%;
+    }
+    
+    img#logo {
+        width: 30%;
+        float: 
     }
     
 }
