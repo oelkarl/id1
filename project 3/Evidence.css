@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    background-image: url(Images/evidencebg2.jpg);
+    background-repeat:repeat;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    color: coral;
+}
+
+h2 {
+    font-size: 2em;
+    color: darkgrey;
+}
+
+h3 {
+    font-size 4em;
+}
+
+div#climate {
+    width: 50%;
+    padding: 10px 30px;
+    position: inherit;
+}
+
+section {
+    width: 30%;
+    position: inherit;
+}
+
+img{
+    width: 400px;
+    padding: 10px 10px;
+    position: inherit;
+}
+
+
+img#home {
+    position: fixed;
+    width: 80px;
+    right: 3%;
+    bottom: 3%;
+}
+
+.thumbnail:hover {
+    position:fixed;
+    width:500px;
+    height:auto;
+    display: flex;
+    z-index:999;
+}

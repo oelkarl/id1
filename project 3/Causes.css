@@ -1,0 +1,8 @@
+body {
+    background-position: fixed;
+    background-image: url(black-and-white-earth.jpg);
+}
+
+h1, h2, p{
+    color: white;
+}

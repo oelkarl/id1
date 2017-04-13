@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    background-size: cover;
+    background-image: url(earth.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+
+h3 {
+    color: white;
+    margin-top: -60px;
+}
+
+section#navigation {
+    position:absolute;
+    right: 0%;
+    top: 0;
+}
+
+section#navigation img {
+    width: 10vw;
+}
+
+img#evidence {
+}
+
+img#cause {
+    margin-top: -20px; 
+}
+
+img#effect {
+    margin-top: -15px;
+
+}
+
