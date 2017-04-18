@@ -4,6 +4,11 @@ body {
     background-repeat:repeat;
 }
 
+img#evidence {
+    width: 100%;
+}
+
+
 h1, h2, h3, p {
     color: white;
 }
@@ -33,6 +38,7 @@ section {
     position: inherit;
 }
 
+
 img{
     width: 400px;
     padding: 10px 10px;
@@ -47,10 +53,16 @@ img#home {
     bottom: 3%;
 }
 
+img#causebutton {
+    width: 40%;
+    display:block;
+    margin: auto;
+}
+
 .thumbnail:hover {
     position:fixed;
     width:500px;
     height:auto;
-    display: flex;
+    display:flex;
     z-index:999;
 }

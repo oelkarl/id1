@@ -1,8 +1,59 @@
 body {
-    background-position: fixed;
-    background-image: url(black-and-white-earth.jpg);
+    background-position: top right;
+    background-image: url(Images/bluemarble_nightlights.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+img#wehuman {
+    width: 100%;
+    padding-left: 10px;
 }
 
 h1, h2, p{
     color: white;
+}
+
+h1 {
+    color:firebrick
+}
+
+
+p {
+    width: 40%;
+    padding: 0px 20px;
+    line-height: 150%;
+}
+
+img#molecules {
+    width: 35%;
+    padding: 10px 30px;
+}
+
+img#words {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+img#effectbutton {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+img#home {
+    position: fixed;
+    width: 80px;
+    right: 3%;
+    bottom: 3%;
+}
+
+.thumbnail:hover {
+    position:fixed;
+    width:500px;
+    height:auto;
+    display:flex;
+    z-index:999;
 }
