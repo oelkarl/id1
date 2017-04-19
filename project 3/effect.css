@@ -1,7 +1,91 @@
 body {
-    background-color: black;
+    background-color:black;
+    background-image: url(Images/effectbg3.png);
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+img#effectheader {
+    width: 100%
 }
 
 p, h2 {
     color: white;
+    width: 30%;
+    padding: 0 35px;
 }
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 15px;
+}
+
+p {
+    font-family: 'Asap', sans-serif;
+    margin-top: -15px;
+}
+
+h2#slideshow {
+    width: 70%;
+    position: relative;
+    margin-left: 100px;
+}
+
+img#effectheader {
+    position: inherit;
+}
+
+section#slides {
+    width: 40%;
+    right: 0;
+    left: 30%;
+    top: 35%;
+    margin: auto;
+    position: absolute;
+    position: fixed;
+}
+
+img#home {
+    position: fixed;
+    width: 80px;
+    right: 3%;
+    bottom: 3%;
+}
+
+.thumbnail:hover {
+    position:fixed;
+    width:500px;
+    height:auto;
+    display:flex;
+    z-index:999;
+}
+
+@media only screen and (max-width:500px) {
+    
+    body {
+        width: 90%;
+        padding: 2% 2%;
+    }
+    
+    p {
+        width: 70%;
+        margin: 10px;
+    }
+    
+    h2 {
+        width: 50%;
+    }
+    
+    h2#slideshow {
+        width: 100%;
+        margin-top: -53px;
+        margin-left: -15%;
+        position: inherit;
+    }
+    
+    section#slides {
+        width: 80%;
+        margin-top: 150%;
+        margin-left: -15%;
+    }

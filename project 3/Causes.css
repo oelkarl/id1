@@ -11,30 +11,50 @@ img#wehuman {
     padding-left: 10px;
 }
 
-h1, h2, p{
+
+h2 {
     color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    padding: 0px 35px;
+    padding-top: 0.5in;
 }
 
-h1 {
-    color:firebrick
+h1, p{
+    color: white;
+    font-family: 'Asap', sans-serif;
+    padding: 0px 35px;
 }
 
 
 p {
     width: 40%;
-    padding: 0px 20px;
+    padding: 15px 35px;
+    margin-top: -35px;
     line-height: 150%;
+    position: inherit;
+}
+
+img#greenhouse {
+    position: inherit;
+    margin-bottom: 40px;
+}
+
+img#greenhouse {
+    padding: 0px 35px;
 }
 
 img#molecules {
     width: 35%;
-    padding: 10px 30px;
+    padding: 50px 65px;
+    position: inherit;
 }
 
 img#words {
     width: 80%;
     display: block;
     margin: auto;
+    padding-top: 1in;
 }
 
 img#effectbutton {
@@ -57,3 +77,37 @@ img#home {
     display:flex;
     z-index:999;
 }
+
+img#effectbutton {
+    padding-top: .5in;
+}
+
+@media only screen and (max-width:500px) {
+    
+    body {
+        width: 80%;
+        padding: 2% 2%;
+    }
+    
+    img {
+        width: 90%;
+    }
+    
+    p {
+        width: 80%;
+        
+    }
+    div#2ndpag {
+        
+    }
+    
+    img#effectbutton {
+        width: 80%;
+        padding-top: 10px;
+    }
+    
+    img#molecules {
+        width: 70%;
+        padding-bottom: 30px;
+        position: inherit;
+    }

@@ -3,11 +3,39 @@
     <head>
         <title>Global Warming Effects</title>
         <link rel="stylesheet" href="effect.css">
+        <link href="https://fonts.googleapis.com/css?family=Asap|Oswald" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Effects</h1>
+            <img src="Images/effect.png" id="effectheader">
         </header>
+        <section id="slides">
+            <h2 class="slideshow" id="slideshow">Global Warming Impact</h2>
+            <div class="slider" style="max-width 500px">
+                <img class="mySlides" src="slideshow/drought.jpg" style="width:80%">
+                <img class="mySlides" src="slideshow/earth%20on%20fire.jpg" style="width:80%">
+                <img class="mySlides" src="slideshow/fire%20forest.jpg" style="width:100%">
+                <img class="mySlides" src="slideshow/flood.jpg" style="width:80%">
+                <img class="mySlides" src="slideshow/polar%20bear.jpg" style="width:80%">
+                <img class="mySlides" src="slideshow/social%20effect.jpg" style="width:80%">
+            </div>
+            <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2500); // Change image every 2.5 seconds
+            }
+            </script>
+        </section>
         <section id="effect">
             <h2>The consequences of climate change</h2>
             <p>Global climate change has already had observable effects on the environment. Glaciers have shrunk, ice on rivers and lakes is breaking up earlier, plant and animal ranges have shifted and trees are flowering sooner. Effects that scientists had predicted in the past would result from global climate change are now occurring: loss of sea ice, accelerated sea level rise and longer, more intense heat waves.</p>
@@ -32,6 +60,7 @@
             <h2>U.S. regional effects</h2>
             <p>Below are some of the impacts that are currently visible throughout the U.S. and will continue to affect these regions, according to the Third National Climate Assessment Report2, released by the U.S. Global Change Research Program: Northeast. Heat waves, heavy downpours and sea level rise pose growing challenges to many aspects of life in the Northeast. Infrastructure, agriculture, fisheries and ecosystems will be increasingly compromised. Many states and cities are beginning to incorporate climate change into their planning. Northwest. Changes in the timing of streamflow reduce water supplies for competing demands. Sea level rise, erosion, inundation, risks to infrastructure and increasing ocean acidity pose major threats. Increasing wildfire, insect outbreaks and tree diseases are causing widespread tree die-off. Southeast. Sea level rise poses widespread and continuing threats to the region’s economy and environment. Extreme heat will affect health, energy, agriculture and more. Decreased water availability will have economic and environmental impacts. Midwest. Extreme heat, heavy downpours and flooding will affect infrastructure, health, agriculture, forestry, transportation, air and water quality, and more. Climate change will also exacerbate a range of risks to the Great Lakes. Southwest. Increased heat, drought and insect outbreaks, all linked to climate change, have increased wildfires. Declining water supplies, reduced agricultural yields, health impacts in cities due to heat, and flooding and erosion in coastal areas are additional concerns.</p>
         </section>
+
     </body>
         <footer>
         <nav>

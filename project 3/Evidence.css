@@ -1,35 +1,49 @@
 body {
     background-color: black;
-    background-image: url(Images/evidencebg2.jpg);
-    background-repeat:repeat;
+    background-image: url(Images/earthevidence.png);
+    background-size:  70%;
+    background-repeat:no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
 }
 
 img#evidence {
     width: 100%;
+    padding: 0;
 }
 
-
-h1, h2, h3, p {
+h2 {
     color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
-h1 {
-    font-size: 5em;
-    color: coral;
+h3, p {
+    color: white;
+    font-family: 'Asap', sans-serif;
 }
+
 
 h2 {
     font-size: 2em;
     color: darkgrey;
+    padding: 0 55px;
 }
 
 h3 {
-    font-size 4em;
+    font-size: 30px;
+    padding: 0px 55px;
+    padding-top: 0.5in;
+}
+
+p {
+    padding: 10px 55px;
+    margin-top: -20px;
+    position: inherit;
 }
 
 div#climate {
     width: 50%;
-    padding: 10px 30px;
+    padding: 10px 25px;
     position: inherit;
 }
 
@@ -41,7 +55,7 @@ section {
 
 img{
     width: 400px;
-    padding: 10px 10px;
+    padding: 0px 55px;
     position: inherit;
 }
 
@@ -57,6 +71,7 @@ img#causebutton {
     width: 40%;
     display:block;
     margin: auto;
+    padding: 50px 0;
 }
 
 .thumbnail:hover {
@@ -66,3 +81,14 @@ img#causebutton {
     display:flex;
     z-index:999;
 }
+
+@media only screen and (max-width:500px) {
+    
+    body {
+        width: 80%;
+        padding: 2% 2%;
+    }
+    
+    img {
+        width: 80%;
+    }
